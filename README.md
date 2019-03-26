@@ -94,7 +94,7 @@ The reason we configure the environment as following is that tensorflow r1.* onl
     
     * Unzip the cuDNN package
         
-        ``` tar -xzvf cudnn-10.0-linux-x64-v7.4.1.5 ```
+        ``` tar -xzvf cudnn-10.0-linux-x64-v7.4.1.5.tar ```
         
     * Copy the files into the CUDA Toolkit directory
     

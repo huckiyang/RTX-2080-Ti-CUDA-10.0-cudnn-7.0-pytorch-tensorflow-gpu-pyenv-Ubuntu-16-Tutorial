@@ -1,6 +1,10 @@
 # Ubuntu 16.04 + RTX 2080 Ti Driver + cuda-10.0 + cudnn-7.0 + tensorflow-gpu + Anaconda Tutorial
 
-[Also useful note](https://medium.com/@avinchintha/how-to-install-nvidia-drivers-and-cuda-10-0-for-rtx-2080-ti-gpu-on-ubuntu-16-04-18-04-ce32e4edf1c0) 
+[CUDA-10-0-for-rtx-2080-ti-gpu-on-ubuntu-16-04](https://medium.com/@avinchintha/how-to-install-nvidia-drivers-and-cuda-10-0-for-rtx-2080-ti-gpu-on-ubuntu-16-04-18-04-ce32e4edf1c0) 
+
+[CUDA 10](https://www.pytorials.com/how-to-install-tensorflow-gpu-with-cuda-10-0-for-python-on-ubuntu/)
+
+[CUDA-10-ubuntu-18](https://vxlabs.com/2018/11/04/pytorch-1-0-preview-nov-4-2018-packages-with-full-cuda-10-support-for-your-ubuntu-18-04-x86_64-systems/)
 
 This is a tutorial to configure the environment.
 

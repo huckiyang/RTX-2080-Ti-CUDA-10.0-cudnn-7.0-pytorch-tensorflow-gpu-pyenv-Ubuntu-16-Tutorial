@@ -2,7 +2,7 @@
 
 ``` sudo apt-get install gcc g++ make cmake ```
     
-    ``` $ sudo apt-get install ```
+``` sudo apt-get install ```
 
 [ubuntu 18](https://itw01.com/27OLTEO.html)
 

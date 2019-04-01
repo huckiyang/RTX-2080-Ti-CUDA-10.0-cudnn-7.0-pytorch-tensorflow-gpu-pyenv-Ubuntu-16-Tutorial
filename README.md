@@ -1,4 +1,4 @@
-# Ubuntu 16.04 + RTX 2080 Ti Driver + cuda-10.0 + cudnn-7.0 + tensorflow-gpu + Anaconda Tutorial
+# Ubuntu 18.04 + RTX 2080 Ti Driver + cuda-10.0 + cudnn-7.0 + tensorflow-gpu + Anaconda Tutorial
 
 ``` sudo apt-get install gcc g++ make cmake ```
     

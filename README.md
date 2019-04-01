@@ -6,6 +6,8 @@
 
 [CUDA10+tf](https://zhuanlan.zhihu.com/p/49166211)
 
+[ubuntu 18-CUDA10](https://medium.com/@vitali.usau/install-cuda-10-0-cudnn-7-3-and-build-tensorflow-gpu-from-source-on-ubuntu-18-04-3daf720b83fe)
+
 [ubuntu 18](https://itw01.com/27OLTEO.html)
 
 [CUDA-10-0-for-rtx-2080-ti-gpu-on-ubuntu-16-04](https://medium.com/@avinchintha/how-to-install-nvidia-drivers-and-cuda-10-0-for-rtx-2080-ti-gpu-on-ubuntu-16-04-18-04-ce32e4edf1c0) 

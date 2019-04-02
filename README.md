@@ -143,9 +143,29 @@ Thanks [Tsai-Hyun-Joong](https://github.com/Tsai-Hyun-Joong/Ubuntu-18.04-RTX-208
 * # Pyenv is coming
     
     * using pyenv to regulate your environment
+    sudo apt-get install -y make build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev libncursesw5-dev libpng-dev
+
+   ```git clone git://github.com/yyuu/pyenv.git ~/.pyenv```
+
+   ```git clone https://github.com/yyuu/pyenv-pip-rehash.git ~/.pyenv/plugins/pyenv-pip-rehash```
+
+   ```echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bashrc```
+   
+   ```echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bashrc```
+
+   ```echo 'eval "$(pyenv init -)"' >> ~/.bashrc```
+   
+   ```source ~/.bashrc```
+   
+   ```pyenv install -l | grep anaconda3```
+   
+   ```pyenv install anaconda3-5.3.1```
+   
+   ```pyenv global anaconda3-5.3.1```
+
     ``` pip install tensorflow-gpu ```
 
             
 * # Congratulations! 
 
-* Feel free to star. 
+   * Feel free to star. 

@@ -20,13 +20,13 @@ Thanks [Tsai-Hyun-Joong](https://github.com/Tsai-Hyun-Joong/Ubuntu-18.04-RTX-208
 
 * # Ubuntu-16 Setting
 
-```sudo apt-get update ```
+    ```sudo apt-get update ```
 
-```sudo apt-get upgrade```
+    ```sudo apt-get upgrade```
 
-``` sudo apt-get install gcc g++ make cmake git```
+    ``` sudo apt-get install gcc g++ make cmake git```
     
-``` sudo apt-get install ```
+    ``` sudo apt-get install ```
 
 
 * # Before NVIDIA Driver Installation

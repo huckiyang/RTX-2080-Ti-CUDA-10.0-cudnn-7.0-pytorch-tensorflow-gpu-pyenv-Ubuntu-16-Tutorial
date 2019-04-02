@@ -1,6 +1,6 @@
 # RTX-2080-Ti-CUDA-10.0-cudnn-7.0-pytorch-tensorflow-gpu-pyenv-Ubuntu-16.04-Tutorial-i9-CPU
 
-2019.04.02, Huck Yang 
+2019.04.02, Huck Yang with Ubuntu-16
 
 Thanks [Tsai-Hyun-Joong](https://github.com/Tsai-Hyun-Joong/Ubuntu-18.04-RTX-2080-Ti-Driver-cuda-10.0-cudnn-7.0-tensorflow-gpu-Anaconda-Tutorial) for a nice reference. For Ubuntu 16 - since RTX-2080-Ti GPU is too new for most virtual environments (conda, pip), but the GPU card could mostly run stably with CUDA 10.0. After endless trying and erasing the disk, I made a modification setting note here. Feel free to leave commit by push commit. 
 

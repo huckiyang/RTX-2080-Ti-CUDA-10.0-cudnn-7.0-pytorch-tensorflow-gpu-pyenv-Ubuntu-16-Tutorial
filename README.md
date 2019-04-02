@@ -1,4 +1,11 @@
-# Ubuntu 18.04 + RTX 2080 Ti Driver + cuda-10.0 + cudnn-7.0 + tensorflow-gpu + Anaconda Tutorial
+# RTX-2080-Ti-CUDA-10.0-cudnn-7.0-pytorch-tensorflow-gpu-pyenv-Ubuntu-16.04-Tutorial
+
+2019.04.02
+Since RTX-2080-Ti is too new for most system, but the environment could mostly run stably with CUDA 10.0.
+
+
+Note
+
 
 ``` sudo apt-get install gcc g++ make cmake ```
     

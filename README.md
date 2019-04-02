@@ -143,6 +143,7 @@ Thanks [Tsai-Hyun-Joong](https://github.com/Tsai-Hyun-Joong/Ubuntu-18.04-RTX-208
 * # Pyenv is coming
     
     * using pyenv to regulate your environment
+    ``` pip install tensorflow-gpu ```
 
             
 * # Congratulations! 

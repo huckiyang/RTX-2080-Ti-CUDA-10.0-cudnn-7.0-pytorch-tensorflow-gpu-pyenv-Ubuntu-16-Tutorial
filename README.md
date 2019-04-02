@@ -53,7 +53,7 @@ Thanks [Tsai-Hyun-Joong](https://github.com/Tsai-Hyun-Joong/Ubuntu-18.04-RTX-208
 
     * Version: 410
     
-    * Link: https://www.nvidia.com/Download/index.aspx
+    * 410 Link: https://www.nvidia.com/download/driverResults.aspx/138279/en-us
     
     * Installation instructions
 

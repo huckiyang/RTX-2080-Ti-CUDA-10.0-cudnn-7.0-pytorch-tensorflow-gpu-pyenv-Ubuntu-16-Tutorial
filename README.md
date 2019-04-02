@@ -20,6 +20,10 @@ Thanks [Tsai-Hyun-Joong](https://github.com/Tsai-Hyun-Joong/Ubuntu-18.04-RTX-208
 
 * # Ubuntu-16 Setting
 
+```sudo apt-get update ```
+
+```sudo apt-get upgrade```
+
 ``` sudo apt-get install gcc g++ make cmake git```
     
 ``` sudo apt-get install ```
@@ -83,13 +87,13 @@ Thanks [Tsai-Hyun-Joong](https://github.com/Tsai-Hyun-Joong/Ubuntu-18.04-RTX-208
 
         ``` sudo sh cuda_10.0.130_410.48_linux.run ```
     
-    * Set up the development environment
+    * Set up the development environment (./cuda-10.0/)
     
         ``` sudo vim ~/.bashrc ```
 
-        ``` export PATH=/usr/local/cuda/bin${PATH:+:${PATH}}```
+        ``` export PATH=/usr/local/cuda-10.0/bin${PATH:+:${PATH}}```
         
-        ``` export LD_LIBRARY_PATH=/usr/local/cuda/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}} ```
+        ``` export LD_LIBRARY_PATH=/usr/local/cuda-10.0/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}} ```
         
         ``` source ~/.bashrc ```
         

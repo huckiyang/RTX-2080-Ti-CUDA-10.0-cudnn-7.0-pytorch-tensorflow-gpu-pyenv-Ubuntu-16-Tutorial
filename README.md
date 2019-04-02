@@ -1,33 +1,29 @@
-# RTX-2080-Ti-CUDA-10.0-cudnn-7.0-pytorch-tensorflow-gpu-pyenv-Ubuntu-16.04-Tutorial
+# RTX-2080-Ti-CUDA-10.0-cudnn-7.0-pytorch-tensorflow-gpu-pyenv-Ubuntu-16.04-Tutorial-i9-CPU
 
-2019.04.02
-Since RTX-2080-Ti is too new for most system, but the environment could mostly run stably with CUDA 10.0.
+2019.04.02, Huck Yang 
 
-
-Note
+Thanks [Tsai-Hyun-Joong](https://github.com/Tsai-Hyun-Joong/Ubuntu-18.04-RTX-2080-Ti-Driver-cuda-10.0-cudnn-7.0-tensorflow-gpu-Anaconda-Tutorial) for a nice reference. For Ubuntu 16 - since RTX-2080-Ti GPU is too new for most virtual environments (conda, pip), but the GPU card could mostly run stably with CUDA 10.0. After endless trying and erasing the disk, I made a modification setting note here. Feel free to leave commit by push commit. 
 
 
-``` sudo apt-get install gcc g++ make cmake ```
+### Keep these good Setting References in advance. 
+
+[1. CUDA-10-0-for-rtx-2080-ti-gpu-on-ubuntu-18-04](https://medium.com/@avinchintha/how-to-install-nvidia-drivers-and-cuda-10-0-for-rtx-2080-ti-gpu-on-ubuntu-16-04-18-04-ce32e4edf1c0) 
+
+[2. ubuntu 18-CUDA10-7.3](https://medium.com/@vitali.usau/install-cuda-10-0-cudnn-7-3-and-build-tensorflow-gpu-from-source-on-ubuntu-18-04-3daf720b83fe)
+
+[3. CUDA-10-tf-gpu](https://www.pytorials.com/how-to-install-tensorflow-gpu-with-cuda-10-0-for-python-on-ubuntu/)
+
+[4. CUDA-10-ubuntu-18-pytorch](https://vxlabs.com/2018/11/04/pytorch-1-0-preview-nov-4-2018-packages-with-full-cuda-10-support-for-your-ubuntu-18-04-x86_64-systems/)
+
+
+
+
+* # Ubuntu-16 Setting
+
+``` sudo apt-get install gcc g++ make cmake git```
     
 ``` sudo apt-get install ```
 
-[CUDA10+tf](https://zhuanlan.zhihu.com/p/49166211)
-
-[ubuntu 18-CUDA10](https://medium.com/@vitali.usau/install-cuda-10-0-cudnn-7-3-and-build-tensorflow-gpu-from-source-on-ubuntu-18-04-3daf720b83fe)
-
-[ubuntu 18](https://itw01.com/27OLTEO.html)
-
-[CUDA-10-0-for-rtx-2080-ti-gpu-on-ubuntu-16-04](https://medium.com/@avinchintha/how-to-install-nvidia-drivers-and-cuda-10-0-for-rtx-2080-ti-gpu-on-ubuntu-16-04-18-04-ce32e4edf1c0) 
-
-[CUDA 10](https://www.pytorials.com/how-to-install-tensorflow-gpu-with-cuda-10-0-for-python-on-ubuntu/)
-
-[CUDA-10-ubuntu-18](https://vxlabs.com/2018/11/04/pytorch-1-0-preview-nov-4-2018-packages-with-full-cuda-10-support-for-your-ubuntu-18-04-x86_64-systems/)
-
-This is a tutorial to configure the environment.
-
-Don't forget to give me a star if you like it, thank you!
-
-The reason we configure the environment as following is that tensorflow r1.* only support cuda 9.0 while RTX-2080-Ti only support cuda 10.0. Accidentally using cuda 9.0 with RTX-2080-Ti with tensoflow-gpu will cause core dumped sometimes. So we alternatively choose to compile tensorflow-gpu with cuda 10.0 ourselves. Hope we can save you some time!
 
 * # Before NVIDIA Driver Installation
 
@@ -51,7 +47,7 @@ The reason we configure the environment as following is that tensorflow r1.* onl
 
 * # NVIDIA Driver Installation
 
-    * Version: 415 or 410
+    * Version: 410
     
     * Link: https://www.nvidia.com/Download/index.aspx
     

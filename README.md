@@ -5,7 +5,7 @@
 Thanks [Tsai-Hyun-Joong](https://github.com/Tsai-Hyun-Joong/Ubuntu-18.04-RTX-2080-Ti-Driver-cuda-10.0-cudnn-7.0-tensorflow-gpu-Anaconda-Tutorial) for a nice reference. For Ubuntu 16 - since RTX-2080-Ti GPU is too new for most virtual environments (conda, pip), but the GPU card could mostly run stably with CUDA 10.0. After endless trying and erasing the disk, I made a modification setting note here. Feel free to leave commit by push commit. 
 
 
-### Keep these good Setting References in advance. 
+### Keep these good setting references in the advance. 
 
 [1. CUDA-10-0-for-rtx-2080-ti-gpu-on-ubuntu-18-04](https://medium.com/@avinchintha/how-to-install-nvidia-drivers-and-cuda-10-0-for-rtx-2080-ti-gpu-on-ubuntu-16-04-18-04-ce32e4edf1c0) 
 

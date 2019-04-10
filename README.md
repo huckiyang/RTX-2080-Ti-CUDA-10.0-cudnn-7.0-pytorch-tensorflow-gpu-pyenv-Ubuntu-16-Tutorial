@@ -165,6 +165,7 @@ Thanks [Tsai-Hyun-Joong](https://github.com/Tsai-Hyun-Joong/Ubuntu-18.04-RTX-208
 
     ``` pip install tensorflow-gpu ```
 
+Note after conda 4.3 there has new enviroment setup.  
             
 * # Congratulations! 
 

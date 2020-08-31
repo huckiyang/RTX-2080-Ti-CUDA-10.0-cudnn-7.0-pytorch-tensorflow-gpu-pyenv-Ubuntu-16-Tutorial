@@ -83,7 +83,7 @@ Thanks [Tsai-Hyun-Joong](https://github.com/Tsai-Hyun-Joong/Ubuntu-18.04-RTX-208
         
         ``` sudo ./NVIDIA-Linux-x86_64-410.78.run --no-opengl-files ```
         
-* # CUDA
+* # Step 5 CUDA
     
     * Version: CUDA 10.0 see the archive
     
@@ -140,10 +140,12 @@ Thanks [Tsai-Hyun-Joong](https://github.com/Tsai-Hyun-Joong/Ubuntu-18.04-RTX-208
         
         ``` sudo chmod a+r /usr/local/cuda/include/cudnn.h /usr/local/cuda/lib64/libcudnn* ```
 
+        ```sudo apt-get install -y make build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev libncursesw5-dev libpng-dev```
+
 * # Pyenv is coming
     
     * using pyenv to regulate your environment
-    sudo apt-get install -y make build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev libncursesw5-dev libpng-dev
+    
 
    ```git clone git://github.com/yyuu/pyenv.git ~/.pyenv```
 

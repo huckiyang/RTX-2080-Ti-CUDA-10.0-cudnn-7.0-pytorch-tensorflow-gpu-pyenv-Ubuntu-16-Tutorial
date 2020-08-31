@@ -164,7 +164,17 @@ Thanks [Tsai-Hyun-Joong](https://github.com/Tsai-Hyun-Joong/Ubuntu-18.04-RTX-208
    
    ```pyenv global anaconda3-5.3.1```
 
+* # Step 6 Conda
+
+    ```conda create -n tf36 python=3.6```
+    
+    ```source activate tf36```
+    
     ``` pip install tensorflow-gpu ```
+    
+    or 
+    
+    ``` conda install tensorflow-gpu ```
 
 Note after conda 4.3 there has new enviroment setup.  
             
